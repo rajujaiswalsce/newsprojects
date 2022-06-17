@@ -1,0 +1,511 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel = "icon" href = 
+    "https://pbs.twimg.com/profile_images/1008981896246759424/1D4_ZQBP_400x400.jpg" 
+            type = "image/x-icon">
+    <link rel="stylesheet" href="./style/style.css">
+
+    <style>
+        #techimger{
+            /* border: 1px solid red; */
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            margin: auto;
+        }
+        #techimger >div{
+           /* border: 1px solid green ; */
+           
+           width: 60%;
+        }
+       
+        .img3{
+            width: 45%;
+            height: 150px;
+        }
+
+   #maintech{
+       /* border: 1px solid red; */
+       width: 80%;
+       /* height: 800px; */
+       margin: auto;
+       display: flex;
+       justify-content: baseline;
+   }
+ 
+   a{
+       text-decoration: none;
+   }
+   .maintech2 >div {
+       /* border: 1px solid black; */
+       width: 100%; 
+       
+        display:grid;
+       grid-template-columns: repeat(2,1fr);
+       grid-template-rows: auto;
+       gap: 5px;
+   }
+   #mobile2 {
+       /* border: 1px solid red; */
+       width: 90%;
+       margin: auto;
+       display: flex;
+       justify-content: space-between;
+   }
+   #mobile2>div{
+       display: flex;
+       justify-content: space-between;
+       gap: 20px;
+   }
+   input{
+       margin-top: 20px;
+   }
+   #mobile3{
+       /* border: 1px solid red; */
+       display: grid;
+       grid-template-columns: repeat(6,1fr);
+       grid-template-rows: auto;
+       gap: 10px;
+       width: 90%;
+       margin: auto;
+   }
+  #mobile3 >div{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  #home2{
+      display: flex;
+      justify-content: space-between;
+  }
+
+
+
+#mainfooter{
+    background-color: #000000;
+}
+  #footer_main{
+            /* border: 1px solid red; */
+            height: 900px;
+            width: 80%;
+            margin: auto;
+            background-color: #000000;
+        }
+        #footer_upper{
+            display: flex;
+            justify-content: space-between;
+        }
+         #social{
+             display: flex;
+             justify-content: space-around;
+            gap: 20px;
+        }
+        #footer_down {
+            display: flex;
+            justify-content:first baseline;
+        }
+        a{
+            text-decoration: none;
+            color:#4c4c4c;
+            
+        }
+        #last{
+            display: flex;
+            justify-content: baseline;
+            gap: 20px;
+            background-color: #000000;
+        }
+        #privet{
+            display: flex;
+            justify-content:baseline;
+            gap: 20px;
+            align-items: center;
+            margin-left: 300px;
+      
+            
+        }
+        .copy{
+            align-items: center;
+            margin-left: 300px;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="techimger">
+        <div id="techimge">
+            <div class="techimg">
+               <a href=""> <img class = " img3" src="https://images.firstpost.com/fpimages/380x285/fixed/jpg/flip_quote/20210923080422_Nord%202%20-1024.jpg"/></a>
+              <span><p>OnePlus Nord 2 <br> review <br>
+               Return of the flagship-<br>killer</p>
+            </span> 
+            </div>
+        </div>
+        <div>
+           
+            <a href=""><img src="https://images.firstpost.com/wp-content/uploads/assets/images/tech2/rev_tech2-logo-final.png" alt=""></a>
+          <p>Thursday, June 16, 2022 | Back to</p>
+        </div>
+        <div>
+            <div class="techim">
+                <a href=""><img  class = "img3" src="https://images.firstpost.com/fpimages/380x285/fixed/jpg/flip_quote/20210903080056_nathan-anderson-L95xDkSSuWw-unsplash%20(2).jpg" alt=""></a>
+                <p>September sky<br> events <br>
+
+                    Meteor showers, a <br> comet, asteroids and <br> more</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <div id="home2">
+        <h2>HOME</h2>
+        <h2 style="color: green;">GADGETS</h2>
+        <h2 style="color: pink;">NEWS</h2>
+        <h2 style="color: #c870fe;">REVIEW</h2>
+        <h2 style="color: #1885ff;">SCIENCE</h2>
+        <h2 style="color: #1885ff;">AUTO</h2>
+        <h2 style="color: #65efe5;">GAMING</h2>
+        <h2 style="color: #007bff;">PHOTOS</h2>
+        <h2 style="color:#f7ae35">VIDEOS</h2>
+        <h2 style="color: #476eb1;">HOW TO</h2>
+    </div>
+    
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="data:image/jpeg;base64,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" style="width:100% ; height: 300px;" alt="">
+  <img class="mySlides" src="data:image/jpeg;base64,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" style="width:100%; height: 300px;" alt="">
+  <img class="mySlides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIPGAyvz_cWxgd9pUEh4LizveZVeVSTJOUfQ&usqp=CAU" style="width:100% ; height: 300px;" alt="">
+  <img class="mySlides" src="https://www.firstpost.com/tech/news-analysis/microsoft-finally-stop-supporting-internet-explorer-pulls-the-plug-on-web-browser-after-27-years-10795701.html" style="width:100%;height: 300px;" alt="">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+
+<div id="maintech">
+    <div class="maintech1">
+        <a href="">
+            <img src="https://images.firstpost.com/fpimages/100x100/fixed/jpg/scalex16x9/2022/06/11.jpg?impolicy=website&width=312&height=175" alt="">
+        </a>
+        <a href="">
+            <p>WhatsApp continues to ban <br> accounts in India, over 16 lakh <br> accounts were banned in April</p>
+        </a>
+        <p>...........................................................................</p>
+
+        <a href="">
+            <p>Explained: Microsoft knows<br> most PC owners use pirated <br>Windows, but why it still won’t <br>take any action</p>
+        </a>
+        <p>...........................................................................</p>
+        <a href="">
+            <p>Bots on Twitter have become <br>Elon Musk's biggest issue in <br>going forward with the <br>acquisition. Here's why</p>
+        </a>
+        <p>...........................................................................</p>
+        <a href="">
+            <p>Netflix’s crackdown on <br>password-sharing in Latin <br>American countries is proving <br>to be a disaster.</p>
+        </a>
+        <p>...........................................................................</p>
+        <a href="">
+            <p>Samsung’s phone production to<br> take a major hit this year, will<br> be producing 30 million units<br> less</p>
+        </a>
+        <p>...........................................................................</p>
+        <a href="">
+            <p>Apple’s new patent reveals<br> radical new camera tech for<br> future iPhones.</p>
+        </a>
+        <p>...........................................................................</p>
+        <a href="">
+            <p>Half of Indian smartphone <br>users are seeing ads based on <br>their personal phone <br>conversations, says survey</p>
+        </a>
+        <p>...........................................................................</p>
+
+        <a href="">
+            <p>Google’s foldable Pixel phone<br> is not coming anytime soon,<br> has been postponed to 2023</p>
+        </a>
+        <p>...........................................................................</p>
+
+        <a href="">
+            <p>PM Narendra Modi Inaugurates <br>India's first and indigenously<br> made 5G test bed</p>
+        </a>
+        <p>...........................................................................</p>
+
+        <a href="">
+            <p>Govt. of India issues high <br>severity warnings for Apple<br> devices like iPhone, iPad that <br>can be hacked</p>
+        </a>
+        <p>...........................................................................</p>
+    
+    
+    </div>
+  
+    <div class="maintech2">
+       
+    <div class="inner1">
+        <div>
+            <h3>NEWSTRACKER<br>
+
+            <span style="color: yellow; background-color:black"> So long Internet <br> Explorer; Microsoft to <br>finally retire once-dominant browser<br></span>
+            Users marked Explorer's <br>passing on Twitter, with <br>some referring to it as a "bug-ridden, insecure POS"<br> or the "top browser for <br>installing other browsers.</h3>
+        </div>
+        <div>
+            <img src="https://images.firstpost.com/fpimages/100x100/fixed/jpg/scalex16x9/2022/06/internet-explorer-640.jpg?impolicy=website&width=350&height=220" alt="">
+        </div>
+    </div>
+    <div>
+
+        <div>
+            <img src="https://images.firstpost.com/fpimages/100x100/fixed/jpg/scalex16x9/2022/06/Here%E2%80%99s-everything-one-needs-to-know-about-HTC%E2%80%99s-upcoming-metaverse-smartphone.jpg?impolicy=website&width=355&height=200" alt="">
+        </div>
+        <div>
+            <h3>HTC<br>
+
+                <span style="color: yellow; background-color:black"> Here’s everything one<br> needs to know about HTC’s<br> upcoming metaverse smartphone<br>
+                HTC is all set to make a comeback to<br> the smartphone</span> industry with their upcoming<br> Viverse, a smartphone that is<br> dedicated to, and based on technologies that facilitate the metaverse. The device will be officially announced on 28 June.
+                
+                .</h3>
+        </div>
+        
+    </div>
+    <div>
+        <div>
+            <h3>ONEPLUS<br>
+
+               
+
+                <span style="color: yellow; background-color:black"> OnePlus Nord CE 2 Lite 5G <br>long term review: Most non-OnePlus<br> phone ever
+                The company has<br></span> cut far too many corners to make this <br>phone affordable, but in the process, <br>it barely feels like a OnePlus phone..</h3>
+        </div>
+        <div>
+            <img src="https://images.firstpost.com/fpimages/100x100/fixed/jpg/scalex16x9/2022/06/OnePlus-Nord-CE-2-Lite-Review-Lead-image_y64-11.jpg?impolicy=website&width=355&height=200" alt="">
+        </div>
+    </div>
+    <div>
+        <div>
+            <img src="https://images.firstpost.com/fpimages/100x100/fixed/jpg/scalex16x9/2022/06/OnePlus-likely-to-launch-the-OnePlus-10T-later-this-year-to-come-with-Snapdragon-8-Gen-1-SoC-1.jpg?impolicy=website&width=355&height=200" alt="">
+        </div>
+        <div>
+
+            <h3>ONEPLUS<br>
+
+                <span style="color: yellow; background-color:black"> OnePlus likely to launch<br> the OnePlus 10T later this year,<br> to come with Snapdragon<br> 8+ Gen 1 SoC
+                Rumours about <br>OnePlus’ upcoming flagship,</span> <br>codenamed Project Ovaltine had been doing the<br> round for some time now. It turns out that instead<br> of the OnePlus 10 Ultra, it actually refers to the OnePlus<br> 10T, which will launch later this year with the <br>Snapdragon 8+ Gen 1 SoC.
+                
+                .</h3>
+        </div>
+       
+    </div>
+    
+    <div>
+        <div>
+            <h3>APPLE<br>
+
+                <span style="color: yellow; background-color:black">  Apple working on 12" MacBook,<br> 15" MacBook Air, and 14.1" iPad<br> Pro for a 2023 release<br>
+                Apple is planning <br>to revamp their line of MacBooks<br> and iPads in a massive way.</span> They are already<br> working on an array of MacBook Airs, and <br>iPad Pros, planning to release them in <br>2023 with updated M2 Max & M2 Pro chips.</h3>
+        </div>
+        <div>
+            <img src="https://images.firstpost.com/fpimages/100x100/fixed/jpg/scalex16x9/2022/06/Apple-working-on-12_-MacBook-15_-MacBook-Air-and-14.1_-iPad-Pro-for-a-2023-release.jpg?impolicy=website&width=355&height=200" alt="">
+        </div>
+    </div>
+    <div>
+        <div>
+            <img src="https://images.firstpost.com/fpimages/100x100/fixed/jpg/scalex16x9/2022/06/Govt.-of-India-issues-high-severity-warning-for-Google-Chrome-Firefox-users-here%E2%80%99s-how-to-stay-safe.jpg?impolicy=website&width=355&height=200" alt="">
+        </div>
+    <div>
+        <h3>ONLINE SECURITY<br>
+
+            <span style="color: yellow; background-color:black">Govt. of India issues <br>high-severity warning for<br> Google Chrome & Firefox users,<br> here’s how to stay safe
+            CERT-In has flagged <br>certain versions of Google Chrome and<br></span> Mozilla Firefox to be severely vulnerable<br> to hackers and malicious programmes. There is,<br> however, a very simple way to keep themselves <br>safe and protected.
+            
+            .</h3>
+    </div>
+    
+</div>
+    </div>
+   
+      
+</div>
+<hr> 
+<h2 style="color: green;">Tech2 Gadgets</h2>
+<div id="mobile2">
+   
+    <div>
+        <p style="color: green;">Mobiles</p>
+        <p>Laptops</p>
+        <p>Tablets</p>
+    </div>
+    <div>
+        <input type="radio" height="20px" width="20px"> <p style="color: green;">New</p>
+        <input type="radio" height="20px" width="20px"><p style="color: green;">Popular</p>
+        <input type="radio" height="20px" width="20px"><p style="color: green;">Upcoming</p>
+    </div>
+</div>
+<div id="mobile3">
+<div>
+    <img style="margin-left: 40px;" src="https://cdn1.smartprix.com/rx-i6wnbWYSE-w110-h110/tcl-c9.jpg" alt="">
+    <p>Apple IPhone 11</p>
+    <h2>₹ 50,999</h2>
+</div>
+<div>
+    <img  style="margin-left: 40px;"src="https://cdn1.smartprix.com/rx-iCVmmq3Fs-w110-h110/vivo-s5-8gb-ram-256g.jpg" alt="">
+    <p>Apple IPhone 11 (128GB)</p>
+    <h2>₹ 55,999</h2>
+</div>
+<div>
+    <img  style="margin-left: 40px;"src="https://cdn1.smartprix.com/rx-iaVCK97Wi-w110-h110/htc-desire-19s.jpg">
+    <p>Xiaomi Redmi Note 9</p>
+    <h2>₹ 11,999</h2>
+</div>
+<div>
+    <img  style="margin-left: 40px;"src="https://cdn1.smartprix.com/rx-iefs7U7Zx-w110-h110/vivo-z5i.jpg" alt="">
+    <p>Nokia 2.2</p>
+    <h2>₹ 7,990</h2>
+</div>
+<div>
+    <img  style="margin-left: 40px;"src="https://cdn1.smartprix.com/rx-i6wnbWYSE-w110-h110/tcl-c9.jpg" alt="">
+    <p>Apple IPhone 11</p>
+    <h2>₹ 50,999</h2>
+</div>
+<div>
+    <img  style="margin-left: 40px;"src="https://cdn1.smartprix.com/rx-imHJIpMFa-w110-h110/samsung-galaxy-a01.jpg" alt="">
+    <p>Apple IPhone SE 2020</p>
+    <h2>₹ 32,999</h2>
+</div>
+</div>
+
+
+
+<div id="mainfooter">
+<hr>
+    <div id="footer_main">
+        <div id="footer_upper">
+            <div>
+                <a href="https://www.firstpost.com/">
+                    <img  width="100" height="70" src="https://www.firstpost.com/static/images/fp-logo.png" alt="">
+                </a>
+            </div>
+            <div id="social">
+                <a href="https://www.facebook.com/firstpostin">
+                    <img width="30" height="30" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHkAAAB5CAMAAAAqJH57AAAAgVBMVEUADf////8AAP+Wl//U1f/6+v/9/f+mpv+Li/8ABv/MzP+DhP/P0P/Gxv/Z2f/v7//q6v/Cwv/09P9YWP+6uv+QkP85Ov89Pv9JSv99ff8kJv80Nv+srP8VF/+jo/+IiP/i4v9mZ/9hYv+xsf91dv9DRP+cnf9wcP9NT/8sLf9dXf9sjB0OAAAE60lEQVRogcXb63aqMBAFYBgFjSKgolYUtVV7xPd/wBMuXoAA2STY+dcu4TMSQkhmDLNjWI/oegIDPsKfBKvv9cZgWVC8uQ1+56d+ZcsNvtchpcEekf0ZxT+DideP7DmXr5Q0RJF+gd3PyNctW8NpzE8tRF+R6MtgoVG2Dl/t7FM3tq4m2Rsbsuzjh/+ZaZD9bd2lbWx4PFSUvV+oue/20lGRg7ibm9nbxrusSfbvHRucBaNw3k0+Gypu3uz6W6xWtrZ4xxLYYe3VrpNdhStcoGmEyWelK1y0vxF5peOXftKh8GIL5Yu2BjfQAtn+pxfmdCx4fFdlS3OLU5qqg2lFtnuAkx+8Mp5V5FUfMKd3Zbos9wQnrbYb5aAvmNP3JtnXeR9X6FW9bEX9NTmhZ7VyL936FYz8GrnHi5xFYQh/kxdhh/lWIdo/fxbK32CTk6n9dhRMHuG0j7os8gQy+Fszuu5LDwKJsYCWVdleQzJFZ7McY4kzUFCRBxjMBPNpKXlXlhcR0r2Y4NkjJ78a/ZDBJgcCWFKOirINDZu0FsFyskGHggw2ea8gM6MgY08KEi+OyMmPS5XJZ6zJGyEsLd/e5CUmH5Vkg9ynfMKGr1LPtkaXZRL3WPKS0fQpy35ZoWzfHg8M2b5C60UuW1+gXBhGXPzZSpNcRo8tyljvzE5wyeWjkowNBdkJNotMvn1aTs/AZR+di2iQR6k8Qw/VIC9TGbyndMgsXiQycE/lN25BXgEzwBftcnkhO/QkLyj7EY9DYUF3chjlMQWaEHDZNeTl4vtJOYAOQwMuz4HPjxtloMPQF5dH2mTgDZhPBA2kb7bIwIjEmGUgz+YWGVi8YwaXN7pkC5k4k6tRXsjfJPxUjmEC37RZhmY2XLaAb9osA7cnLjeOJNCTh2aY/HWcJlFYS5xv0/9Nj9AElvaQ3PLEAGCD5picH6X8lMyuM/sr2bzCR+qSgZFEswxO8/XI6biNr+7qkJNnFX6kBplibE6iUd5wefgn8gqbe2qU9+B8W5/sJDIwTdYls9BLZLiLaXivuqXvVSf0maFBXqWyhY7cGmTnr9YMkm2zRJ58XE62rhLZA/fX1eVZLpvbz8os8h+y81k5XZTKZBubHSjLzlM2fz8p09V+ydZH5WxRP19Zh9aH1GRG9rvsf04u7WNA27BK8qPJT/kE7GQoyfRrFmWk0SoyixZl2Qulz6AivzacXnux8qtTCnK+b1OU5ReJuGw/A5IZuSJZflMB3Gl/O/BtueM9z+DQe57B1RLL4IYZHIzelzkKsqcvE04UxcS8Yg4NOi/C4H9mvdzxNVwOjswmGU7tkIfLKXmV/DDtqXg5XMlMqObE9dLBBbkY1TxAH1+yaYepmuoqyH308HWqVliQBCLM99TczYRwTY6rVppCYf56TV7vQF9aXk1ybW0uc6BpIGW0rRFq87d9fG1QEFST9NIkm/ZYudmMNvU1KU15+s5a7WqTMWioRGqsTbCmCs0mujXWorTUY5y6licwCoWZXNKyaQ43HWxGdGgr+ZKou5n9gPUv/Kse2k8rVWvkbuVrfvhk9B7IlLhJ1ld5+7tMYhD/zPooWdgmX1N2GiyjBj0tKrteJpJ1XWAd3Wk23oV5Fd2LzCrpot197yKFhHDtoD87r65rer1nMBbvph2KB/GqxTQs6+RkMexaMfkfzVs+PrDcCJMAAAAASUVORK5CYII=" alt="">
+                </a>
+                <a href="https://twitter.com/firstpost">
+                    <img  width="30" height="30" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIIAAACCCAMAAAC93eDPAAAAVFBMVEX///9VrO9KqO5Qqu/5/P6z1/fT6PpGpu5vt/Gs1PadzPW32ffL4/l5u/H0+f6WyPSDwPJisu/E3/jl8vyiz/Vcr++Kw/K83fc5o+7Z6/rg7vvs9P1qwntMAAAExUlEQVR4nO1b25aqMAyVtlJAqZSbIP//nwcYHRlJ0oA403UW++E8nJF2k+becDjs2LFjx44d/x+UKc7XuLz0KONrWBj1q9ubc5lZ0WjRQ8rhX90Im5Vn8yvbq7C0WksZzCCl1rYMPywNdUusFMD2TxrSJrcPMshTIfDtHxAizT+zvzpWmnj/H7LQ1XH781An8gDmopCnjUmcI8YJvJCIzhsSUDX3CKaQOttMEDlHCUFBiG30UtUrCYwk6g0E0S3Xgh8cou5dBmGwQgumkEH4HoOjfo/AAH18i8Fbh/CAeIPDaRMGPYfT38pg5LBSDtsxWMsh3EATn9Ar7KLbksCAxf5BRW/6g1fIaKmffMcrwxD1Mgb55gx6DotilvoAg57DkqPY/hhGCguO4rypPT6h2XnU5tbwAN8q1oUGKfrqysGdGyzUmv11kJXHU1nbSZYJlFySJ4YVsUFE+b2cNGF2F4UUaTT/IS9WVIs1QcTTl8v7BfpiNwoNIIWKwyCHzEFeCtxK5EsI6iIdxX1hWQLi1Bz/lEJCEO3hjJ2PmJWxajyVEHpApm4GN/DBwZoQp41pubFg+TEnPEMCUhj9GphByAhhUGmRlHOJisTFQFnwTePxj0U15yfgXORWxyEcaiqXXYagOTxsycyCB+bwhv81FlrsVXlngLT4Wwo9ri+ljbigS5kMXqt0UACJTzfq6mb6E8LIUlh9paUZmAZ+bGpKRa2fi+sWWakLMCPWdF8ODdPF9FdFYh8BqUFsjIi2jpANWNGIV99uwrqSoo9DDaJcBrSsL5HSypBh3AFTul2TtGqQuENRyCgGsFcYxbAw/zUVSiGwlGcwaJyWrPjCoyAofSxgg+jjQBk01yUUOiLpaAriQcwgBhG0xyWNXaoiJevLK8LdHVteQeWfgpJnjDzIifI/QVUiT3cPAI4QAwfq+CBQdQAZJS5oZoRHIxA3nIBjsQvOfdklA1kWy3UUsOQIAZiA8ijg5Be5R9zFjUtRFMDE8fFgyr/8oqshUh0xo/ySX5Vzq1I48fmmQBkl5pruHBpbsozT0RwgXRP1rKy7ti04cnA1B0gHjYWpERW3bXd1dEjIMEVqMjdQwLn7dCFKr/GUZQCaqv4EZVYjyJQFT9y+6HOOoqUOcwCduKHp6x2Vu5NsnO0JR/rqMCcpY5dJ1M4GiSOJN652n7AxeRpORegNwuFlXdrck2iaFLUqBgNXQYcnLc8lZIbKIWb0TJ1lLVzcTwhQV9Elp2vrLO4pzyClbjJ8AZWx+sbOFgd8mlprIYLoQoXKVrL6lQwfC7W76jAM26Ij67AEGm+BKLgzQAXkXO5RhBzoQoGQKSPWQq1PqS0R49XVsm8PeKUpWJD2B5200AuYMFkwYsJrAKO1mBDR5dxNpriUKfLa8rTwsQavDa7wTF5qYdNLEp9OxzKp00rrJfsH7MsAx5WIHIiM1x/L727Y9+ceXAx5cD3mwyWhD1elHlwY+3Bt7sPwgAcjFD4MkvgwTuPDUJEPo1U+DJj5MGbnw7ChDyOXPgyeHjwYvz2sHkIW2w0hHzwYxT58DaQvIrD5QPrBg7H8EX/9ccIA9yca4sOfaIwsqA9Vms9/qHLHH3+u88Aff7S0Y8eOHTt2/A7+AbKgPZphfM85AAAAAElFTkSuQmCC" alt="">
+                </a>
+                <a href="https://www.instagram.com/firstpost/">
+                    <img  width="30" height="30" src="data:image/jpeg;base64,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" alt="">
+                </a>
+                <a href="https://www.youtube.com/channel/UCz8QaiQxApLq8sLNcszYyJw/featured">
+                    <img  width="30" height="30" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAAB0CAMAAAArd/mVAAAAaVBMVEX/////AAD/Rkb/enr/ysr/srL/iIj/+Pj/v7//b2//mZn/8/P/f3//YmL/fHz/6Oj/MTH/paX/09P/U1P/2tr/qqr/4uL/T0//c3P/Cgr/WVn/7u7/oaH/KCj/FBT/Hx//PT3/kJD/aWkaJ1GhAAAC10lEQVR4nO2b246jMAxAoRBguJRyLb1QCv//kZNetlppZmdx7LgTyeeJh0qcRiF2HMfzBEEQBEEQBEEQhB+Is1PZt3UdhmGSJEp15zSNonwIguHjjn4KomhO0/TcKZUk+odh3fZ9ecoYLftQpfmyFM1+s9tNFx/GZdxdN/uiWIa5Snqr3rXKN0C7/7IJVG1FNmmgI7mSS5OQy5aFHdcHRUlrm0w2bX1/JB3g0K7sDcIZXB/s615aMt2rfVu9RlDZdhy2vq9obDOWwdXDSxM0ah5bqq9ty6W7JdElD7z/guRjK0cu3ZEitoUMi+6DQ0igq7hsaZaylE83JdAN+HQDAt09n26Dt40tp45/M8Z4XT5b38frZutfNqFXaHzW0K9/2T7Dxmt8nABsJHQQbY8oXXySk4B0Qb//Cn7HVgF1Pe9svpZ0aF1AUPuTUZXGkeWM1s3hunoKG1YlZrTuYKKrv9CdiS4+QV/MdL0YMOlfDG/T1QEmB2fKC1oXMAu/bF5a6L6peKuunsIwYbwuIEx9tzXMKkiZ9e26Wjhi1I0brK4OG6v/8q/Q1YnEylX4iNYF7H1+KmuoVcJ4XZLRXavbYLcTRJNhZRETP7rolQHyqaF1HVvIkFGNPUw4FoRZUxx8RuZYAmmcnpucF+HT8w8zXbPNT47WBRRmfsPWcobrlsa1pwqtewbrIsoi+Go/4Gjiros6nMefpbCW9PCn7u36l+0zQMnnW/AFU8fK0Y4V+2O2M1aSoxTHDqpcOwZ07JDVsSNshh6yJyQNAo61XzjW3OJa65BjjVmOtb051lTI1LJ5pbJlaYg9EDbwMoQKihDxwnYz90TcLe9Wq7xn8yLCkf4iwo1abemveeSWrnk8yfqkm4elKJrNdTdOwDXj8LxEszwu0RBsdtYSn059295uKN2vKHVVVaWaOcqjKMoDzVY/pK8bSrcrSjX7FSVBEARBEARBEAQX+QRRlDfusLD7PgAAAABJRU5ErkJggg==" alt="">
+                </a>
+            </div>
+        </div>
+        <hr>
+        <div id="footer_down">
+        <div>
+            <h3>Firstpost</h3>
+           <p><a href="">About Firstpost</a></p>
+           <p><a href="">Press Release</a></p>
+           <p><a href="">RSS</a></p>
+           <p><a href="">Twitter</a></p>
+           <p><a href="">Facebook</a></p>
+           
+        </div>
+        <hr>
+        <div >
+            <h3>Section</h3>
+            <p><a href="">Front Page</a></p>
+            <p><a href="">Politics</a></p>
+            <p><a href="">Sports</a></p>
+            <p><a href="">India</a></p>
+            <p><a href="">World</a></p>
+            <p><a href="">Business</a></p>
+            <p><a href="">Entertainment News</a></p>
+            <p><a href="">Cricket</a></p>
+            <p><a href="">Tech</a></p>
+            <p><a href="">Health</a></p>
+            <p><a href="">Photos</a></p>
+            <p><a href="">Videos</a></p>
+            <p><a href="">Press Release</a></p>
+            <p><a href="">Firstculture</a></p>
+            <p><a href="">Long Reads</a></p>
+            <p><a href="">Latest Mobiles</a></p>
+            <p><a href="">Latest Tablets</a></p>
+            <p><a href="">Latest Laptops</a></p>
+        </div>
+        <hr>
+        <div>
+            <h3>Plus</h3>
+            <p><a href="">Cricket Live Score</a></p>
+            <p><a href="">New Delhi</a></p>
+            <p><a href="">Mumbai</a></p>
+            <p><a href="">Fp Exclusives</a></p>
+            <p><a href="">Board Exam Results 2020</a></p>
+            <p><a href="">Ipl 2020</a></p>
+            <p><a href="">Coronavirus</a></p>
+        </div>
+        <hr>
+        <div >
+            <h3>Tools</h3>
+            <p><a href="">Rss Feeds</a></p>
+            <h4><a href="">Apps</a></h4>
+            <p><a href="">Ios</a></p>
+            <p><a href="">Android</a></p>
+        </div>
+       
+    </div>
+   
+    
+    <hr>
+ <div id="last">
+     <h3>Network18 sites</h3>
+    <p><a href="">Moneycontrol</a></p>
+    <p><a href="">News18</a></p>
+    <p><a href="">CNBC TV18</a></p>
+    <p><a href="">Overdrive</a></p>
+    <p><a href="">Forbes India</a></p>
+    <p><a href="">TopperLearning</a></p>
+
+ </div>
+ <hr>
+ <p class="copy">Copyright © 2022.
+    Firstpost
+    - All Rights Reserved.</p>
+    <div id="privet">
+        <h3>Terms of use</h3>
+        
+        <h3>Privacy</h3>
+     
+        <h3>Cookie Policy</h3>
+
+    </div>
+</div>
+</div>
+
+</body>
+</html>
+
+<script>
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+
+
+</script>

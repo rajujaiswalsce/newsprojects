@@ -1,0 +1,46 @@
+
+#navbar{
+    /* border: 1px solid red; */
+    height: 150px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#navbar_upper {
+    /* border: 1px solid black; */
+    height: 100px;
+    width: 100%;
+    background-color: black;
+
+}
+#navbar_upper {
+    display: flex;
+    justify-content: space-around;
+
+}
+.social_work , .search_btn{
+    margin-top: 24px;
+}
+#navbar_lower{
+    /* border: 1px solid blue; */
+    height: 30%;
+    width: 70%;
+    margin: auto;
+    
+}
+
+#navbar_lower > .hear{
+    display: flex;
+    justify-content: baseline;
+    gap: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+hr{
+    height: 25px;
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-color:red;
+}
